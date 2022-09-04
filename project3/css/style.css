@@ -15,6 +15,7 @@ background: linear-gradient(90deg, rgba(30,65,189,1) 0%, rgba(4,17,246,1) 100%);
     display: flex;
     padding: 50px 15px;
     justify-content: space-between;
+    align-items: center;
 }
 .helper{
     padding-left: 20px;
