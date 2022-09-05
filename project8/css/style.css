@@ -27,7 +27,6 @@ body{
 .container{
     width: 1020px;
     margin: 0 auto;
-    border: 3px orange solid;
 }
 .header{
     margin: 0;
@@ -166,7 +165,98 @@ body{
     text-align: center;
     text-decoration: none;
 }
-.footer{
+.pricing{
     height: 615px;
     background-color: #efefef;
+}
+.pricing_title{
+        font-size: 50px;
+        font-family: "MontserratB";
+        color: rgb(19, 14, 39);
+        font-weight: bold;
+        line-height: 80px;
+        text-transform: uppercase;
+        text-align: center;
+}
+.pricing_menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 65px;
+}
+.pricing_item{
+    height: 400px;
+    width: 325px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.text_first{
+    margin-top: 25px;
+    margin-bottom: 22px;
+        font-size: 22px;
+        font-family: "PT Serif";
+        color: rgb(22, 22, 22);
+        line-height: 28px;
+}
+.title_pricing_item{
+    margin: 0;
+    font-size: 60px;
+    font-family: "MontserratB";
+    color: rgb(198, 35, 20);
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.text_pricing_item{
+        font-size: 20px;
+        font-family: "PT Serif";
+        color: rgb(22, 22, 22);
+        line-height: 28px;
+        text-align: center;
+}
+.btn_pricing_item{
+    height: 50px;
+    width: 205px;
+    border-radius: 5px;
+    background-color: #130e27;
+}
+.btn_pricing_item a{
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn_pricing_item:hover{
+    background-color: #c62314 ;
+}
+
+.footer {
+    height: 190px;
+    background-color: #130e27;
+}
+.footer_inner {
+}
+.footer_item {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.footer_text {
+        font-size: 20px;
+        font-family: "PT Serif";
+        color: rgb(255, 255, 255);
+        line-height: 22px;
+}
+.footer_text span{ 
+    color:#c62314;
+}
+.footer_logo {
+        font-size: 60px;
+        font-family: "QuiteChocolatey";
+        color: rgb(198, 35, 20);
+        line-height: 24px;
 }
