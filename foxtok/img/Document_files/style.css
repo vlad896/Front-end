@@ -462,8 +462,6 @@ body{
 }
 .simple__way{
     display: flex;
-    padding-top: 172px;
-    padding-bottom: 146px;
 }
 .download__app{
     margin: 0;
@@ -473,11 +471,13 @@ body{
     font-weight: 400;
     font-size: 18px;
     color: #333333;
+    background-color: #F3FBF8;
+    border-radius: 50px;
+    width: 170px;
+    height: 40px;
+    
 }
 .title__simple__way{
-    margin: 0;
-    padding: 0;
-    padding-top: 16px;
     font-family: 'Rosario';
     font-style: normal;
     font-weight: 700;
@@ -486,23 +486,10 @@ body{
     color: #222222;
 }
 .text__simlpe__way{
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
-    padding-bottom: 50px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: #555555;
-}
-.simple__way img{
-    padding: 0;
-    margin: 0;
-    padding-right: 121px;
-    height: 500px;
-}
-.texts__simple__way{
-    padding-top: 35px;
 }
