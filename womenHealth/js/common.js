@@ -1,7 +1,4 @@
 $(function() {
-
-	new WOW().init();
-
 	$(".hamburger").click(function(){
 		$(this).toggleClass("is-active");
 
