@@ -64,4 +64,5 @@ let randomNumber = Math.floor(Math.random() * 100) + 1;
         guessField.focus();
         lastResult.style.backgroundColor = 'white';
         randomNumber = Math.floor(Math.random() * 100) + 1;
+        
       }
